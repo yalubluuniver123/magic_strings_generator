@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "t2tokengen"
+version = "0.1.0"
+description = ""
+authors = ["Ilgiz Akhmedzhanov <irakhmedzhanov@avito.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
